@@ -1,0 +1,359 @@
+/**
+ * fil: css/style.css
+ **/
+/* Variabler: genbruges og gør designvalg enkle */
+:root {
+  /* farver */
+  --lightpink: #fdecdf;
+  --black: #161615;
+  /* fonte */
+  --font:'Noteworthy', fantasy; /* brødtekst */
+  --display: 'Noteworthy', fantasy; /* overskrifter og menubar */
+}
+
+/* Her bruges en variabel: --blue */
+body {
+  background-color: #fdecdf;
+  font-family: var(--font);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+/* Layout */
+
+/* Typografi */
+h1{
+  text-align: center;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 30px;
+  padding-top: 50px;
+}
+
+h2{
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  margin: auto;
+}
+
+h3{
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-top: 0.5px;
+  margin:40px;
+}
+
+/* header logo */
+a {
+color: black;
+text-decoration: none;
+font-family: Noteworthy;
+}
+
+/* placering af menupunker i nav */
+.linkEt{
+  list-style-type: none;
+  position: fixed;
+  top: 6%;
+  left: 10%;
+}
+
+.linkTo{
+  list-style-type: none;
+  position: fixed;
+  top: 6%;
+  left: 20%;
+}
+
+.linkTre{
+  list-style-type: none;
+  position: fixed;
+  top: 6%;
+  left: 30%;
+}
+
+.linkFire{
+  list-style-type: none;
+  position: fixed;
+  top: 6%;
+  right: 30%;
+}
+
+.linkFem{
+  list-style-type: none;
+  position: fixed;
+  top: 6%;
+  right: 20%;
+}
+
+.ikon{
+  text-align: right;
+}
+
+.ikonimg{
+  width: 30px;
+}
+
+.menu{
+  width: 50%;
+  height: 50%;
+  margin: auto auto;
+}
+
+.logo{
+  text-align: center;
+}
+
+.logoimg{
+  width: 150px;
+}
+
+
+/* Baggrund */
+
+main{
+  width: 100%;
+}
+
+
+/* index.html - forside content*/
+
+/* tekst og billeder */
+
+.billedforside{
+  display: flex;
+}
+
+.biii{
+  width: 100%;
+  text-align: center;
+  display: flex;
+}
+.aaa{
+  text-align: center;
+  padding-top: 10px
+}
+
+/* Certifikater billede */
+.vvv{
+  text-align: center;
+  padding-left: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.body{
+  padding: 30px;
+}
+
+.p{
+  display: inline-block;
+}
+
+
+/* ansigt.html */
+/* artikel overskrift */
+
+/*induktion under overskrift*/
+#annn{
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+/* billeder */
+.ansigtscremer{
+  width: 100%;
+  display: flex;
+}
+
+/* tekst */
+#sss{
+  text-align: center;
+}
+
+#start{
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+/* tekst */
+#midt{
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+/* tekst */
+#sidst{
+  text-align: center;
+  padding-left:  50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+/* tekst og logo b'er point*/
+#bbbbb{
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 0px;
+  padding-bottom: 50px;
+}
+
+#ttttt{
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 0px;
+  padding-bottom: 50px;
+}
+
+#ppppp{
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 0px;
+  padding-bottom: 50px;
+
+}
+
+
+/* krop.html */
+/* tekst */
+#kafff{
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+#kafff2{
+  text-align: center;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+/*billede*/
+.kaffe{
+  display: flex;
+}
+
+.scrubimg{
+  width: 50%;
+  text-align: center;
+  display: flex;
+}
+
+/* tekst */
+#fremgang{
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+#anvendelse{
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+
+
+/* haar.html */
+
+/* tekst */
+#beskriv{
+  text-align: center;
+  padding-left: 0px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+#liste{
+  text-align: center;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+#wrapper{
+  margin: auto;
+}
+
+
+/* billeder */
+.row1{
+  display: flex;
+}
+
+.col-3{
+  width: 50%;
+  display: flex;
+}
+
+
+/* tekst */
+#tort{
+  text-align: center;
+  padding-right: 50px;
+}
+
+#ny{
+  text-align: center;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+/* footer */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.footer-container{
+  padding-bottom: 4rem;
+}
+
+.footer{
+  width: 80%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  vertical-align: bottom;
+}
+
+.footer-heading{
+  display: flex;
+  flex-direction: column;
+  margin-right: 4rem;
+}
+
+.footer-heading h4{
+  margin-bottom: 2rem;
+}
+
+.footer-heading a{
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+
+.footer-heading a:hover{
+  color: black;
+  transition: 0.3s ease-out;
+}
+
+.footer-bottom{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
